@@ -5,7 +5,7 @@ import { SafeAreaProvider } from 'react-native-safe-area-context';
 import AsyncStorage from '@react-native-async-storage/async-storage';
 import { useEffect, useState } from 'react';
 import { View, ActivityIndicator } from 'react-native';
-import { registerRootComponent } from 'expo';
+
 
 import LoginScreen from './Screens/Login/login.js';
 
@@ -125,5 +125,5 @@ const Stack = createNativeStackNavigator();
 }
 
 
-registerRootComponent(App);
+
 export default App;
